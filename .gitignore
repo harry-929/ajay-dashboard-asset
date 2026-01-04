@@ -1,0 +1,23 @@
+# Ignore all files by default
+*
+
+# But don't ignore directories (so we can recurse into them)
+!*/
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow README
+!README.md
+
+# Allow common image formats at any level
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.webp
+!*.ico
+!*.bmp
+!*.tiff
+!*.tif
